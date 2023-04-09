@@ -1,5 +1,4 @@
-<<<<<<< HEAD
 # object-tracking-yolov8
-=======
-# object-tracker-yolov8
->>>>>>> 205ad97 (version 1 is ready.)
+This repo has 2 parts:
+1. Object Detection with YOLOv8
+2. Object Tracking of the detected objects
