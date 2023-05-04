@@ -37,7 +37,6 @@ while True:
     for box_id in boxes_ids:
         x, y, w, h, id = box_id
         cv2.putText(roi, str(id), (x, y - 26), cv2.FONT_HERSHEY_PLAIN, 2, (225, 0, 0), 2)
-        cv2.rectangle(roi, (x, y), (x + w, y + h), (0, 225, 0), 3)
     
     cv2.imshow("roi", roi)
     cv2.imshow("Frame", frame)
